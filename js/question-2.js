@@ -11,12 +11,11 @@ async function getGames() {
  
     contCont.innerHTML ="";
     for (let i = 0; i < info.length; i++) {
-        console.log(info[i].name);
-        console.log(info[i].rating);
-        console.log(info[i].tags.length);
+      
         if (i === 7) {
             break;
         }
+        
         contCont.innerHTML += `<div class = "apiCall">
         Name of Game = ${info[i].name}. 
         Rating= ${info[i].rating}.
