@@ -1,4 +1,4 @@
- const url = "https://api.rawg.io/api/games?dates=2019-01-01,2019-12-31&ordering=-rating&key=9339867cf32440a391721b99037e384c";
+const url = "https://api.rawg.io/api/games?dates=2019-01-01,2019-12-31&ordering=-rating&key=9339867cf32440a391721b99037e384c";
 
 const contCont = document.querySelector(".content");
 
