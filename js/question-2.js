@@ -11,15 +11,15 @@ async function getGames() {
  
     contCont.innerHTML ="";
     for (let i = 0; i < info.length; i++) {
-      
+
         if (i === 7) {
             break;
         }
         
         contCont.innerHTML += `<div class = "apiCall">
-        Name of Game = ${info[i].name}. 
-        Rating= ${info[i].rating}.
-        Number of tags = ${info[i].tags.length}.
+        Name of Game: ${info[i].name}. 
+        Rating: ${info[i].rating}.
+        Tags:  ${info[i].tags.length}.
         </div>`
     }
 

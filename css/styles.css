@@ -18,3 +18,8 @@
     transform: rotate(360deg);
   }
 }
+
+.apiCall {
+  padding: 5px;
+  margin: 5px;
+}
